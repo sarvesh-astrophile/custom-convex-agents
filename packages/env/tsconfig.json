@@ -1,0 +1,3 @@
+{
+  "extends": "@convex-agents/config/tsconfig.base.json"
+}

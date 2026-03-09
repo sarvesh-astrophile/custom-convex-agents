@@ -1,0 +1,19 @@
+{
+  "name": "@convex-agents/infra",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "alchemy dev",
+    "deploy": "alchemy deploy",
+    "destroy": "alchemy destroy"
+  },
+  "dependencies": {
+    "dotenv": "catalog:",
+    "zod": "catalog:"
+  },
+  "devDependencies": {
+    "@convex-agents/config": "workspace:*",
+    "alchemy": "catalog:",
+    "typescript": "^5"
+  }
+}
